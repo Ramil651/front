@@ -1,0 +1,33 @@
+.certificate-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .certificate-container h2 {
+    text-align: center;
+  }
+  
+  .certificate-container p {
+    margin-bottom: 10px;
+  }
+  
+  .certificate-container button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .certificate-container button:hover {
+    background-color: #0b7dda;
+  }
+  

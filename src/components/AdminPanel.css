@@ -1,0 +1,72 @@
+/* AdminPanel.css */
+
+.admin-panel-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .admin-panel-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .admin-panel-container button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .admin-panel-container form {
+    margin-bottom: 20px;
+  }
+  
+  .admin-panel-container input,
+  .admin-panel-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .admin-panel-container .materials {
+    margin-bottom: 20px;
+  }
+  
+  .admin-panel-container .materials h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .admin-panel-container .materials .material {
+    margin-bottom: 10px;
+  }
+  
+  .admin-panel-container .materials button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  .admin-panel-container .courses-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin-panel-container .course-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .admin-panel-container .course-item h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .admin-panel-container .course-item p {
+    margin: 5px 0;
+  }
+  

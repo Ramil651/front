@@ -1,0 +1,87 @@
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-container input[type="text"],
+.filter-container input[type="date"],
+.filter-container select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul li p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.enroll-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.enroll-button:hover {
+  background-color: #45a049;
+}
+
+.enroll-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Кнопка для отмены зачисления */
+.enrolled-button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.enrolled-button:hover {
+  background-color: #d32f2f;
+}
+
+.enrolled-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
